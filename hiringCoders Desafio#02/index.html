@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./css/estilo.css" />    
+</head>
+<body>
+
+    <!--Menu-->
+    <nav>
+        <section>
+        <h1>MINHA<br/>PAREDE</h1>
+        </section>
+        <section>
+            <p id="btLogin"><b>Entrar</b></p>
+            <section id="carrinho">
+            <img src="./image/carrinho.jpg" alt="carrinho de compras" />
+            <p id="qtd">0</p>
+            </section>
+            <p id="sair"><a href="index.html"><b>Sair</b></a></p>
+        </section>
+    </nav>
+
+    <!--Formulario de cadastro de clientes-->
+    <section>
+    <form id="cliente">
+        <p><label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Nome completo" required/>
+        </p>
+        <p><label for="pais">Senha</label>
+            <input type="password" id="senha" placeholder="Digite uma senha forte" required/>
+        </p>
+        <p><label for="cpf">CPF</label>
+            <input type="cpf" id="cpf" placeholder="Apenas numeros" required/>
+        </p>
+        <h2>Contato</h2>
+        <p><label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="Seu melhor email" required/>
+        </p>
+        <p><label for="telefone">Telefone</label>
+            <input type="number" id="telefone" placeholder="Com o DDD" required/>
+        </p>
+        <h2>Endereço</h2>
+        <p><label for="endereco">Logradouro</label>
+            <input type="text" id="endereco" placeholder="Rua/av., Numero, Bairro" required/>
+        </p>
+        <p><label for="cidade">Cidade</label>
+            <input type="text" id="cidade" placeholder="Cidade onde Reside" required/>
+        </p>
+        <p><label for="estado">Estado</label>
+            <input type="text" id="estado" placeholder="Estado onde Reside" required/>
+        </p>
+        <p><label for="pais">País</label>
+            <input type="text" id="pais" placeholder="Pais onde Reside" required/>
+        </p>    
+        <button type="submit" id="ok">Criar conta</button>
+    </form>
+    </section>
+
+
+    <!--PRODUTOS-->
+    <h1>Papeis de parede</h1>
+    <main id="container">
+        <section>
+            <h3>Goku</h3>
+            <img src="./image/goku.jpg" alt="Papel de parede do Goku" />
+            <h2>R$150,00</h3>
+            <button id="Goku" onclick="adds(1,id);" name="Goku">Adicionar</button>
+        </section>
+        <section>
+            <h3>Kimetsu</h3>
+            <img src="./image/kimetsu.jpg" alt="Papel de parede do Kimetsu" />
+            <h2>R$160,00</h3>
+            <button id="Kimetsu" onclick="adds(1,id);" name="Kimetsu">Adicionar</button>
+        </section>
+        <section>
+            <h3>Kurama vs Yondaime</h3>
+            <img src="./image/kurama.jpg" alt="Papel de parede da Kurama e Yondaime" />
+            <h2>R$200,00</h3>
+            <button id="KuramaYondaime" onclick="adds(1,id);" name="Kurama e Yondaime">Adicionar</button>
+        </section>
+        <section>
+            <h3>Levi e Eren</h3>
+            <img src="./image/LeviEren.jpg" alt="Papel de parede do Levi e Eren" />
+            <h2>R$190,00</h3>
+            <button id="LeviEren" onclick="adds(1,id);" name="Levi e Eren">Adicionar</button>
+        </section>
+        <section>
+            <h3>Sasuke</h3>
+            <img src="./image/sasuke.jpg" alt="Papel de parede do Sasuke Sharingan Rinnegan" />
+            <h2>R$130,00</h3>
+            <button id="Sasuke" onclick="adds(1,id);" name="Sasuke">Adicionar</button>
+        </section>
+        <section>
+            <h3>HxH</h3>
+            <img src="./image/hxh.png" alt="HxH Gon e Killua" />
+            <h2>R$100,00</h3>
+            <button id="HxH" onclick="adds(1,id);" name="Papel de HunterXHunter">Adicionar</button>
+        </section>
+    </main>
+    
+    <!--RODAPÉ-->
+    <footer>
+        <b>MiNHA PAREDE reserva todos os direitos &copy 2021</b>
+        <p>Desenvolvido por<en>Edson Domingos</en></p>
+    </footer>
+        
+    <script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>

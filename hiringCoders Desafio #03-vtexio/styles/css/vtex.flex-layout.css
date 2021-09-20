@@ -1,0 +1,14 @@
+.flexRowContent {
+    background-color: rgba(0, 0, 0, .9);
+    text-decoration: #fff;
+}
+
+.flexRow {
+	background-color: rgba(0, 0, 0, .9);
+    color: #fff;
+}
+
+.stretchChildrenWidth {
+    background-color: rgba(118, 105, 105, 0.344);
+    
+}

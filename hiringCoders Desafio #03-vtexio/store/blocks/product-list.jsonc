@@ -1,0 +1,364 @@
+{
+  //Linha 1 de produtos
+
+  "flex-layout.row#l1":{
+    "children": [
+      "flex-layout.col#c1",
+      "flex-layout.col#c2"
+    ]
+  },
+  "flex-layout.col#c1":{
+    "children": ["rich-text","slider-layout#home1"
+    ],
+    "props":{
+      "marginRight":"5",
+      "marginLeft":"5"
+    }
+  },
+  
+  "flex-layout.col#c2":{
+    "children": ["rich-text#r2","slider-layout#home3"
+    ],
+    "props":{
+      "marginRight":"5",
+      "marginLeft":"5"
+    }
+  },
+  "rich-text":{
+    "props" : {
+      "text":"Goku"
+    }
+  },
+  "slider-layout#home1": {
+    "children": [
+        "image#img1",
+        "image#img2"
+    ],
+    "props": {
+        "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+        }
+
+    }
+  },
+  "image#img1":{
+    "props":{
+        "src":"https://i.pinimg.com/236x/3a/0d/6c/3a0d6cfb88ca658a4affa1ad1dabf9bc.jpg"
+    }
+  },
+  "image#img2":{
+    "props":{
+        "src":"https://i.pinimg.com/236x/bd/5f/91/bd5f919e4d5cd3da578c08415fe6ea29.jpg"
+    }
+  },
+  "rich-text#r2":{
+    "props" : {
+      "text":"Freeza"
+    }
+  },
+  "slider-layout#home3": {
+    "children": [
+        "image#im1",
+        "image#im2"
+    ],
+    "props": {
+        "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+        }
+    }
+  },
+  "image#im1":{
+    "props":{
+        "src":"https://i.pinimg.com/236x/3e/6a/11/3e6a11989e02ed67315c7f447ed1e676.jpg"
+    }
+  },
+  "image#im2":{
+    "props":{
+        "src":"https://i.pinimg.com/236x/04/88/00/04880098b92800a21ec0fd77f48a73b9.jpg"
+    }
+  },
+
+  //////////////////////////
+  "slider-layout#home2": {
+    "children": [
+        "image#i1",
+        "image#i2"
+    ],
+    "props": {
+        "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+        }
+    }
+  },
+  "image#i1":{
+    "props":{
+        "src":"https://i.pinimg.com/236x/9c/b7/9d/9cb79d1c20d8b35142fea76e44bc031a.jpg"
+    }
+  },
+  "image#i2":{
+    "props":{
+        "src":"https://i.pinimg.com/236x/c8/34/59/c83459468fddda9d9874587b7fba79a0.jpg"
+    }
+  },
+  
+  /////linha 2 de produtos///////
+
+  "flex-layout.row#l2":{
+    "children": [
+      "flex-layout.col#c3",
+      "flex-layout.col#c4"
+    ]
+  },
+  "flex-layout.col#c3":{
+    "children": ["rich-text#r3","slider-layout#h3"
+    ],
+    "props":{
+      "marginRight":"5",
+      "marginLeft":"5"
+    }
+  },
+  
+  "flex-layout.col#c4":{
+    "children": ["rich-text#r4","slider-layout#h4"
+    ],
+    "props":{
+      "marginRight":"5",
+      "marginLeft":"5"
+    }
+  },
+  "rich-text#r3":{
+    "props" : {
+      "text":"Gohan"
+    }
+  },
+  ///
+  "slider-layout#h3": {
+    "children": [
+        "image#br1",
+        "image#br2"
+    ],
+    "props": {
+        "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+        }
+
+    }
+  },
+  "image#br1":{
+    "props":{
+        "src":"https://i.pinimg.com/236x/9e/3e/47/9e3e47e2dbd86398e616fd6e1a892f92.jpg"
+    }
+  },
+  "image#br2":{
+    "props":{
+        "src":"https://i.pinimg.com/236x/3b/ea/f8/3beaf8d0a3fc907b0e4e1dd35fc2e09b.jpg"
+    }
+  },
+  ///
+  "rich-text#r4":{
+    "props" : {
+      "text":"Vegeta"
+    }
+  },
+  "slider-layout#h4": {
+    "children": [
+        "image#img11",
+        "image#img12"
+    ],
+    "props": {
+        "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+        }
+    }
+  },
+  "image#img11":{
+    "props":{
+        "src":"https://i.pinimg.com/236x/55/15/e5/5515e554dd70cec63759a6dc4f91604c.jpg"
+    }
+  },
+  "image#img12":{
+    "props":{
+        "src":"https://i.pinimg.com/236x/fb/43/42/fb434227235450d53fddde5fdd05b09c.jpg"
+    }
+  },
+
+  /////Linha 3 de produtos//////
+
+  "flex-layout.row#l3":{
+    "children": [
+      "flex-layout.col#c5",
+      "flex-layout.col#c6"
+    ]
+  },
+  "flex-layout.col#c5":{
+    "children": ["rich-text#r5","slider-layout#h5"
+    ],
+    "props":{
+      "marginRight":"5",
+      "marginLeft":"5"
+    }
+  },
+  
+  "flex-layout.col#c6":{
+    "children": ["rich-text#r6","slider-layout#h6"
+    ],
+    "props":{
+      "marginRight":"5",
+      "marginLeft":"5"
+    }
+  },
+  "rich-text#r5":{
+    "props" : {
+      "text":"17"
+    }
+  },
+  ///
+  "slider-layout#h5": {
+    "children": [
+        "image#img6",
+        "image#img7"
+    ],
+    "props": {
+        "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+        }
+
+    }
+  },
+  "image#img6":{
+    "props":{
+        "src":"https://i.pinimg.com/236x/9a/56/1f/9a561fa5e601b137aa197516c3b6bbc0.jpg"
+    }
+  },
+  "image#img7":{
+    "props":{
+        "src":"https://i.pinimg.com/236x/ed/cf/ee/edcfeeb3d48c77d502df84612e524ddd.jpg"
+    }
+  },
+  ///
+  "rich-text#r6":{
+    "props" : {
+      "text":"18"
+    }
+  },
+  "slider-layout#h6": {
+    "children": [
+        "image#img8",
+        "image#img9"
+    ],
+    "props": {
+        "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+        }
+    }
+  },
+  "image#img8":{
+    "props":{
+        "src":"https://i.pinimg.com/236x/2f/d4/84/2fd48411f60265930ea5ccc1e6d0f8fd.jpg"
+    }
+  },
+  "image#img9":{
+    "props":{
+        "src":"https://i.pinimg.com/236x/8c/14/4b/8c144b83748ca33447c3f000290a466e.jpg"
+    }
+  },
+
+  //////Linha 4 de produtos/////
+
+  "flex-layout.row#l4":{
+    "children": [
+      "flex-layout.col#c7",
+      "flex-layout.col#c8"
+    ]
+  },
+  "flex-layout.col#c7":{
+    "children": ["rich-text#r7","slider-layout#h7"
+    ],
+    "props":{
+      "marginRight":"5",
+      "marginLeft":"5"
+    }
+  },
+  
+  "flex-layout.col#c8":{
+    "children": ["rich-text#r8","slider-layout#h8"
+    ],
+    "props":{
+      "marginRight":"5",
+      "marginLeft":"5"
+    }
+  },
+  "rich-text#r7":{
+    "props" : {
+      "text":"Dbz"
+    }
+  },
+  ///
+  "slider-layout#h7": {
+    "children": [
+        "image#img11",
+        "image#img12"
+    ],
+    "props": {
+        "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+        }
+
+    }
+  },
+  "image#img11":{
+    "props":{
+        "src":"https://i.pinimg.com/236x/71/81/4e/71814e6f2568938ab636e8acbaf88493.jpg"
+    }
+  },
+  "image#img12":{
+    "props":{
+        "src":"https://i.pinimg.com/236x/57/67/7b/57677ba4038481bd9ef210d791575c44.jpg"
+    }
+  },
+  ///
+  "rich-text#r8":{
+    "props" : {
+      "text":"Kefla"
+    }
+  },
+  "slider-layout#h8": {
+    "children": [
+        "image#img13",
+        "image#img14"
+    ],
+    "props": {
+        "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+        }
+    }
+  },
+  "image#img13":{
+    "props":{
+        "src":"https://i.pinimg.com/236x/d6/66/46/d66646df5e19a1da9c20ba02503f4998.jpg"
+    }
+  },
+  "image#img14":{
+    "props":{
+        "src":"https://i.pinimg.com/236x/c5/7e/12/c57e12d23c8a0427f552d19e94d1803d.jpg"
+    }
+  }
+}

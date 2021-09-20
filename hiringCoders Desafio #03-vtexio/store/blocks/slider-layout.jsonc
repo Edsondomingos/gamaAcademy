@@ -1,0 +1,31 @@
+{
+"slider-layout#home": {
+    "children": [
+        "image#promo1",
+        "image#promo2"
+    ],
+    "props": {
+        "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+        },
+        
+        "autoplay": {
+            "timeout": 7000,
+            "stopOnHover": true 
+
+      }
+    }
+  },
+  "image#promo1":{
+    "props":{
+        "src":"https://images8.alphacoders.com/632/thumbbig-632011.webp"
+    }
+  },
+  "image#promo2":{
+    "props":{
+        "src":"https://images5.alphacoders.com/673/thumbbig-673996.webp"
+    }
+  }
+}

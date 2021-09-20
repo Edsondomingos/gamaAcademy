@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.inscricao {
+    width: 100vw;
+    height: 100px;
+    background-color: #000;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: #fff;
+    position: fixed;
+    box-shadow: 1px 1px 5px white;
+}
+
+.inscricao input {
+    border-radius: 7px;
+    margin: 2px;
+}
+
+figure#bf {
+    margin: auto;
+    padding-top: 100px;
+}
+
+figure#bf img {
+    width: 100%;
+    margin: auto;
+}
+
+figure#bf img:hover {
+    opacity: .5;
+    transition: .1s;
+    transform: scale(1.1);
+}
+figure#bf figcaption {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f00;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+}
+
+.itens {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    color: #fff;
+    padding: 20px 10px 50px 10px;
+    background-image: linear-gradient(to bottom, rgb(133, 7, 7), rgb(17, 9, 9));
+    overflow-x: scroll;
+}
+
+.itens article {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    opacity: .3;
+}
+
+.itens img {
+    width: 250px;
+}
+
+.itens article:hover {
+    opacity: 1;
+    transition: 1s;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}

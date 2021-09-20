@@ -1,0 +1,10 @@
+.listContainer {
+    width: auto;
+    margin: auto;
+    color: #fff;
+}
+
+.listItem {    
+    background-color:#fff;
+    border-radius: 10px;
+}

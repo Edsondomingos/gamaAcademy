@@ -1,0 +1,96 @@
+{
+  "store.home": { 
+    "blocks": [
+      "flex-layout.row" 
+    ]
+  },
+  "flex-layout.row":{
+    "children": [
+      "flex-layout.col"      
+    ],
+    "props":{
+      "marginTop":"1"
+    }
+  },
+  "flex-layout.col":{
+    "children": ["tab-layout#home",
+      "footer"
+    ],
+    "props":{
+      
+      "blockClass": "fundo"
+    }
+  },
+  "tab-layout#home": {
+    "children": ["tab-list#home","slider-layout#home","tab-content#home"]
+  },
+  "tab-list#home": {
+    "children": 
+    ["tab-list.item#home1","tab-list.item#home2","tab-list.item#home3","tab-list.item#home4","tab-list.item#home5","tab-list.item#home6","tab-list.item#home7","tab-list.item#home8"]
+  },  
+  "tab-list.item#home1": {
+    "props": {
+      "tabId": "ABA#1",
+      "label": "Dragon ball",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#home2": {
+    "props": {
+      "label": "Naruto",
+      "tabId": "ABA#2"
+    }
+  },
+  "tab-list.item#home3": {
+    "props": {
+      "label": "Kimetsu no yaiba",
+      "tabId": "ABA#3"
+    }
+  },
+  "tab-list.item#home4": {
+    "props": {
+      "label": "Shingeky no Kyojin",
+      "tabId": "ABA#4"
+    }
+  },
+  "tab-list.item#home5": {
+    "props": {
+      "label": "Yu Yu Hakusho",
+      "tabId": "ABA#5"
+    }
+  },
+  "tab-list.item#home6": {
+    "props": {
+      "label": "Nanatsu no Taizai",
+      "tabId": "ABA#6"
+    }
+  },
+  "tab-list.item#home7": {
+    "props": {
+      "label": "Boku no Hero",
+      "tabId": "ABA#7"
+    }
+  },
+  "tab-list.item#home8": {
+    "props": {
+      "label": "Noragmi",
+      "tabId": "ABA#8"
+    }
+  },
+ 
+  "tab-content#home": {
+    "children": ["tab-content.item#home1","tab-content.item#home2"]
+  },
+  "tab-content.item#home1": {
+    "children": ["flex-layout.row#l1","flex-layout.row#l2","flex-layout.row#l3","flex-layout.row#l4"],
+    "props": {
+      "tabId": "ABA#1"
+    }
+  },
+  "tab-content.item#home2": {
+    "children": ["slider-layout#home2"],
+    "props": {
+      "tabId": "ABA#2"
+    }
+  }
+}
